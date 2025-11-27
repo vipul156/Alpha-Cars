@@ -5,7 +5,7 @@ const Price_Calc = () => {
     const [invites, setInvites] = useState(150);
     const [duration, setDuration] = useState(4);
 
-    const totalPrice = invites * duration * 2000;
+    const totalPrice = 850000 + (invites * 20000) + (duration * 2000);
 
     return (
         <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">

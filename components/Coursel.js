@@ -57,7 +57,7 @@ const Coursel = () => {
                             <Image src="/images_37.jpg" alt="360" width={20} height={20} /> 360° View
                         </button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-[100vw] w-screen h-[95vh] flex flex-col p-0 sm:max-w-[95vw]">
+                    <DialogContent className="max-w-[100vw] w-screen h-[85vh] md:h-[95vh] flex flex-col p-0 sm:max-w-[95vw]">
                         <DialogHeader className="px-6 pt-6 pb-2 shrink-0">
                             <DialogTitle>360° Car View</DialogTitle>
                         </DialogHeader>

@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useRef } from "react";
 
 const Car360 = () => {
@@ -5,7 +6,7 @@ const Car360 = () => {
   const [isDragging, setIsDragging] = useState(false);
   const lastX = useRef(0);
   const totalImages = 72;
-  const sensitivity = 5;
+  const sensitivity = 1;
 
   const handleMouseScroll = (event) => {
     event.preventDefault();

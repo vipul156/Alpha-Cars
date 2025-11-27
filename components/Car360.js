@@ -123,9 +123,6 @@ const Car360 = () => {
               style={{ width: `${(loadedImages / totalImages) * 100}%` }}
             />
           </div>
-          <div className="text-white text-sm mt-2">
-            {loadedImages} / {totalImages} images
-          </div>
         </div>
       )}
 
